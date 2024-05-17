@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="http://localhost:3000/register" method="post">
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre"> <br>
+        <label for="Mail"> Mail</label>
+        <input type="text" name="mail" id="mail"> <br>
+        <label for="Contrasena">Contrasena</label>
+        <input type="password" name="contrasena" id="contrasena"> <br>
+        <input type="submit" value="Register">
+    </form>
+    <script src="https://accounts.google.com/gsi/client" async></script>
+    <div id="g_id_onload"
+        data-client_id="229073674255-joirm1nl65pbnr4qovet8uk4ofd9bmiu.apps.googleusercontent.com
+
+"
+        data-login_uri="http://localhost:3000/register
+
+"
+        data-auto_prompt="false">
+    </div>
+    <div class="g_id_signin"
+        data-type="standard"
+        data-size="large"
+        data-theme="outline"
+        data-text="sign_in_with"
+        data-shape="rectangular"
+        data-logo_alignment="left">
+    </div>
+
+</body>
+</html>
